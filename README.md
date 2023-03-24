@@ -1,27 +1,44 @@
-# TodoList
+# To-do List
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
+O To-do List é um projeto simples, desenvolvido para fins pessoais e educacionais. Ele pode ser acessado através do link: [To-do List](https://soosinho.github.io/todo-list/)
 
-## Development server
+## Funcionalidades
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+O To-do List permite que o usuário realize as seguintes funcionalidades:
 
-## Code scaffolding
+- Adicionar tarefas;
+- Marcar tarefas como concluídas;
+- Excluir tarefas.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Tecnologias utilizadas
 
-## Build
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Angular
+- Typescript
+- HTML
+- CSS
 
-## Running unit tests
+## Como rodar o projeto
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Para rodar o projeto em sua máquina, você precisará do Angular CLI instalado. Em seguida, siga os passos abaixo:
 
-## Running end-to-end tests
+1. Clone o repositório em sua máquina:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+`git clone https://github.com/soosinho/todo-list.git`
 
-## Further help
+2. Navegue até a pasta do projeto:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+`cd todo-list`
+
+3. Instale as dependências do projeto:
+
+`npm install`
+
+4. Inicie o servidor:
+
+`ng serve`
+
+5. Acesse o projeto no navegador:
+
+`http://localhost:4200/`
