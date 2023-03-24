@@ -1,0 +1,36 @@
+:host {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    min-height: 56px;
+    height: 56px;
+    background-color: #262629;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    h1 {
+        margin: 0;
+        margin-left: 22px;
+        color: #ffffffb7;
+        font-family: 'Rubik', sans-serif;
+    }
+}
+
+.dev-icons {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+
+    i {
+        font-size: 32px;
+        color: #ffffff21;
+    }
+
+    i + i {
+        margin-left: 12px;
+    }
+}

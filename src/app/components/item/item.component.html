@@ -1,0 +1,7 @@
+<mat-checkbox #checkbox class="checkbox"></mat-checkbox>
+
+<div class="task" [class.checked]="checkbox.checked">
+    <p>{{task.task}}</p>
+</div>
+
+<mat-icon class="delete-button" mat-icon-button (click)="onDelete()">delete</mat-icon>
