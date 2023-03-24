@@ -30,7 +30,7 @@
 
     p {
         font-size: 20px;
-        font-family: 'Rubik', sans-serif;
+        font-family: "Rubik", sans-serif;
         color: black;
     }
 }
@@ -88,4 +88,14 @@ app-item {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #1a1919;
+}
+
+@media (max-width: 767px) {
+    .add-item, .items {
+        width: 90%;
+    }
+
+    .items {
+        overflow-x: hidden;
+    }
 }

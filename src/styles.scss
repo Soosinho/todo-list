@@ -4,6 +4,7 @@ html {
     height: 100%;
     width: 100%;
     font-family: 'Rubik', sans-serif;
+    background-color: #000000;
 }
 
 .mat-checkbox-frame,
@@ -15,7 +16,7 @@ html {
 
 .mat-checkbox-checked .mat-checkbox-background,
 .mat-checkbox-ripple .mat-ripple-element {
-    background-color: rgb(84, 95, 194) !important;
+    background-color: #545FC2 !important;
 }
 
 .mat-checkbox-frame {
