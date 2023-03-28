@@ -1,6 +1,6 @@
 # To-do List
 
-O To-do List é um projeto simples, desenvolvido para fins pessoais e educacionais. Ele pode ser acessado através do link: <https://soosinho.github.io/todo-list/>
+O To-do List é um projeto simples, desenvolvido para fins pessoais e educacionais. Ele pode ser acessado através do link: <https://soosinho.github.io/todo-list-angular/>
 
 ## Funcionalidades
 
@@ -41,4 +41,4 @@ Para rodar o projeto em sua máquina, você precisará do Angular CLI instalado.
 
 5. Acesse o projeto no navegador:
 
-`http://localhost:4200/todo-list`
+`http://localhost:4200/todo-list-angular`

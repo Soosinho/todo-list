@@ -32,7 +32,7 @@
               "src/styles.scss"
             ],
             "scripts": [],
-            "baseHref": "/todo-list/"
+            "baseHref": "/todo-list-agular/"
           },
           "configurations": {
             "production": {
@@ -70,7 +70,7 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
-            "baseHref": "/todo-list/"
+            "baseHref": "/todo-list-angular/"
           }
         },
         "serve": {
